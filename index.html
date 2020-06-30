@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <title>weatherwatch</title>
+
+</head>
+<body>
+    <!--
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        -->
+
+    <!--<script src="js/script.js"></script>-->
+    <div class="container-fluid">
+
+        <div id="bar1">
+            <weatherbar location="Mt. Washington, NH" lat="44.270" long="-71.305" identifier="MTW_NH"> </weatherbar>
+        </div>
+        
+        <div id="bar2">
+            <weatherbar location="Franconia Notch, NH" lat="44.142" long="-71.682" identifier="FN_NH"> </weatherbar>
+        </div>
+
+        <div id="bar3">
+            <weatherbar location="Crawford Notch, NH" lat="44.219" long="-71.4103" identifier="CN_NH"> </weatherbar>
+        </div>
+
+        <div id="bar4">
+            <weatherbar location="North Conway, NH" lat="44.0537" long="-71.1284" identifier="NC_NH"> </weatherbar>
+        </div>
+
+        <div id="bar5">
+            <weatherbar location="Sahara, Niger" lat="23.33" long="12.866" identifier="S_NG"> </weatherbar>
+        </div>
+
+        <div id="bar6">
+            <weatherbar location="Nepal" lat="27.98" long="86.92" identifier="Nepal"> </weatherbar>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/page.js"></script>
+</footer>
+</html>
